@@ -17,18 +17,19 @@ background: rgba(255,255,255,.6);
 z-index: 1001;
 }
 #popup{
-width: 250px;
-height: 100px;
+width: 25%;
+height: 10vh;
 background: #FFFFFF;
-border: 0px solid #000;
+border: 1px solid #000;
 font-size: 1.5vh;
-/*border-radius: 25px;
--moz-border-radius: 25px;
+/*-moz-border-radius: 25px;
 -webkit-border-radius: 25px;
 box-shadow: #64686e 0px 0px 3px 3px;
 -moz-box-shadow: #64686e 0px 0px 3px 3px;
 -webkit-box-shadow: #64686e 0px 0px 3px 3px; */
-position: relative;
-padding: 75px;
-top: 175px; left: 550px;
+position: fixed;
+padding: 10vh;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
