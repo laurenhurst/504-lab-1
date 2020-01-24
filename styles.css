@@ -7,6 +7,9 @@ html, body, #map {
 height: 100%;
 width: 100vw;
 }
+h2 {
+  font-family: "Arial", Arial, sans-serif;
+}
 #ac-wrapper {
 position: fixed;
 top: 0;
@@ -22,6 +25,7 @@ height: 10vh;
 background: #FFFFFF;
 border: 1px solid #000;
 font-size: 1.5vh;
+
 /*-moz-border-radius: 25px;
 -webkit-border-radius: 25px;
 box-shadow: #64686e 0px 0px 3px 3px;
