@@ -7,9 +7,6 @@ html, body, #map {
 height: 100%;
 width: 100vw;
 }
-h2 {
-  font-family: "Arial", Arial, sans-serif;
-}
 #ac-wrapper {
 position: fixed;
 top: 0;
@@ -20,11 +17,11 @@ background: rgba(255,255,255,.6);
 z-index: 1001;
 }
 #popup{
-width: 25%;
-height: 10vh;
+width: 35%;
+height: auto;
 background: #FFFFFF;
 border: 1px solid #000;
-font-size: 1.5vh;
+font-family: "Arial", arial, sans-serif;
 
 /*-moz-border-radius: 25px;
 -webkit-border-radius: 25px;
